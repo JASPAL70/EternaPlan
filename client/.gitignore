@@ -1,0 +1,5 @@
+.eve
+client/src/config.jsx
+node_modules
+client/.eslintrc.cjs
+client/yarn.lock

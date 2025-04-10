@@ -41,7 +41,7 @@
 | 🧠 Backend    | Node.js, Express.js                         |
 | 🗃️ Database    | MongoDB + Mongoose                         |
 | 🤖 AI / Chat  | **Gemini API (Google Generative AI)**       |
-| 🎯 Auth       | JWT / Express Middleware (if used)          |
+| 🎯 Auth       | JWT / Express Middleware         |
 
 ---
 

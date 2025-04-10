@@ -75,7 +75,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/eternaplan.git
+git clone https:https://github.com/JASPAL70/EternaPlan
 cd eternaplan
 cd server
 # Add your Gemini API Key in a .env file

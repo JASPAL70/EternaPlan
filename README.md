@@ -1,12 +1,13 @@
 <h1 align="center">🌟 EternaPlan 🌟</h1>
 
 <p align="center">
-  The all-in-one event planning platform with intelligent suggestions, interactive chatbot, and a dynamic plan generator. Built using the MERN stack with love 💖.
+  The all-in-one event planning platform with intelligent suggestions, interactive chatbot, and a dynamic plan generator powered by Generative AI. Built using the MERN stack with love 💖.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Fullstack-MERN-blue?style=for-the-badge&logo=mongodb" />
   <img src="https://img.shields.io/badge/Styled--Components-pink?style=for-the-badge&logo=styled-components" />
+  <img src="https://img.shields.io/badge/Gemini%20API-GenAI-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Chatbot-Enabled-success?style=for-the-badge" />
 </p>
 
@@ -14,54 +15,50 @@
 
 ## 🧠 Overview
 
-**EternaPlan** is a modern, responsive web application for event planning. It combines a beautiful frontend, a powerful backend, an AI-assisted event plan generator, and a chatbot assistant to help users organize perfect events.
+**EternaPlan** is a modern, full-stack web application for smart event planning. It combines an elegant frontend, robust backend, and cutting-edge AI through **Gemini API** for generating personalized event plans and powering chatbot conversations.
 
 ---
 
 ## 🚀 Features
 
-- 🧠 **AI-powered plan generator**
+- 🧠 **AI-powered plan generator (via Gemini API)**
+- 🤖 **Event planning chatbot assistant**
 - 🎨 **Visually stunning and responsive frontend**
-- ✨ **Framer Motion animations for modern UI feel**
+- ✨ **Framer Motion animations for modern UI**
 - 🔍 **Dynamic Service Details and custom plans**
-- 🤖 **Chatbot assistant for event guidance**
 - 💬 **User feedback system**
 - 📩 **Contact and communication flow**
-- 🔐 **Backend API with database integration**
-- 📱 **Mobile-friendly across devices**
+- 🔐 **Backend API with MongoDB integration**
+- 📱 **Fully mobile-optimized**
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer       | Technology                             |
-|-------------|-----------------------------------------|
-| 💻 Frontend | React.js, Styled-components, Framer Motion, React Router |
-| 🧠 Backend  | Node.js, Express.js                     |
-| 🗃️ Database  | MongoDB (Mongoose)                      |
-| 🤖 AI/Chat  | Custom logic / GPT-based integrations (optional) |
-| 🎯 Auth     | JWT / Express Middleware (if used)      |
+| Layer         | Technology                                 |
+|---------------|---------------------------------------------|
+| 💻 Frontend   | React.js, Styled-components, Framer Motion, React Router |
+| 🧠 Backend    | Node.js, Express.js                         |
+| 🗃️ Database    | MongoDB + Mongoose                         |
+| 🤖 AI / Chat  | **Gemini API (Google Generative AI)**       |
+| 🎯 Auth       | JWT / Express Middleware (if used)          |
 
 ---
 
-💬 Feedback & Chatbot
+## 💬 Feedback & Chatbot
 
--Users can chat with the event assistant bot for personalized suggestions
--Feedback form available on the platform for continuous improvement
--Plans are generated based on inputs and preferences
+- Users can **chat with the event assistant bot** powered by **Gemini API** for personalized event planning suggestions.
+- A built-in **feedback form** allows users to share experiences and improve service.
+- Plans are **generated intelligently** using AI based on user inputs and preferences.
 
+---
 
+## 🔮 Future Enhancements
 
-
-
-🔮 Future Enhancements
-
-🎯 Admin dashboard for event tracking
-💌 Email and notification system
-🧠 AI model training for improved suggestions
-
-
-
+- 🎯 Admin dashboard for managing events
+- 💌 Email + SMS notification system
+- 🗓️ Calendar integrations
+- 🧠 Advanced AI model fine-tuning and personalization
 
 ---
 
@@ -71,6 +68,7 @@
 
 - Node.js (v16+)
 - MongoDB
+- Gemini API Key (from Google AI Studio)
 - npm or yarn
 
 ### 📦 Installation
@@ -79,13 +77,14 @@
 # Clone the repository
 git clone https://github.com/yourusername/eternaplan.git
 cd eternaplan
-
-
-# Start backend server
 cd server
+# Add your Gemini API Key in a .env file
+# Example: GEMINI_API_KEY=your_key_here
+
+# Start the backend
 node server.js
 
-# In another terminal, start frontend
+#start frontend
 cd client
+npm install
 npm start
-
